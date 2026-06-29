@@ -1,0 +1,99 @@
+body {
+  background-color: rgb(24, 24, 22);
+  color: rgb(192, 192, 128);
+  font-family: sans-serif;
+  text-align: center;
+  padding-top: 50px;
+}
+
+p {
+  font-size: 22px;
+  color: rgb(179, 179, 107);
+  margin-bottom: 25px;
+}
+
+#idea-input {
+  width: 320px;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid rgb(158, 154, 85);
+  border-radius: 8px;
+  background-color: rgb(35, 35, 32);
+  color: rgb(192, 192, 128);
+}
+
+#add-btn {
+  padding: 12px 24px;
+  font-size: 16px;
+  background-color: rgb(158, 154, 85);
+  color: rgb(24, 24, 22);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+#add-btn:hover {
+  background-color: rgb(179, 179, 107);
+}
+
+#add-btn:active {
+    background-color: rgb(217, 217, 155);
+}
+
+.ideas-card {
+  background-color: rgb(30, 30, 27);
+  border: 1px solid rgb(158, 154, 85);
+  border-radius: 16px;
+  padding: 30px;
+  margin: 30px auto;
+  width: 80%;
+  max-width: 700px;
+  min-height: 300px;
+}
+
+#idea-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.idea-item {
+  background-color: rgb(35, 35, 32);
+  border: 1px solid rgb(179, 179, 107);
+  margin: 10px auto;
+  padding: 16px;
+  width: 90%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.quote-text {
+  text-align: left;
+  flex: 1;
+  font-style: italic;
+  color: rgb(192, 192, 128);
+  padding-right: 15px;
+  font-size: 16px;
+}
+
+.delete-btn {
+  background: none;
+  border: 1px solid rgb(158, 154, 85);
+  color: rgb(158, 154, 85);
+  font-size: 18px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.delete-btn:hover {
+  background-color: rgb(158, 154, 85);
+  color: rgb(24, 24, 22);
+}
